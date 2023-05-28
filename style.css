@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(Police/beyno/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'panther';
+    src: url(Police/panther/PantheraRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(Police/cantarell/Cantarell-Regular.ttf);
+}
+
+/*----------------------------------------------------------------*/
+
+* {
+   margin: 0;
+   padding: 0;
+}
+                     /*Premier page*/
+
+body {
+   background-image: url("Illustrations/All pages/arrière_plan.png");
+ 
+}
+
+/*-----------------------------------------------------*/
+
+.Accueill{
+   display: flex;
+   background-size: cover;
+}
+
+.Navigateur {
+    width: 25px;
+    display: flex;
+    margin: 0 50px;
+    flex-wrap: wrap;
+    border-left: 3px solid #F2CEF2;
+    height: fit-content;
+}
+
+.Navigateur .sary {
+    flex-grow: 1;
+    border-right: 3px solid #F2CEF2;
+    height: 40vh;
+}
+
+.resaux {
+    min-height: 5vh;
+    max-height: 100vh;
+    
+}
+
+.resaux a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+.Logo {
+    margin-top: -12%;
+}
+/*-------------------------------------------------*/
+
+.navbar {
+    
+    padding: 50px 160px 80px;
+    border-top: none;
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: collibri;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.icon a img {
+     align-items: center;
+}
+
+.menu a {
+    font-family: 'beyno';
+    margin: 2px 20px;
+    padding: 15px ;
+    font-size: 25px;
+    color: white;
+}
+
+/*---------------------------------------------------*/
+.page1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: -15%;
+}
+
+section {
+    padding: 20px;
+    float: right;
+}
+
+section h1 {
+    font-family: 'panther';
+    font-size: 68px;
+    color: #F2CEF2;
+}
+
+section h2 {
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: #F2CEF2;
+}
+
+section a {
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 16px;
+}
+section p {
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 16px;
+}
+
+section img {
+    width: 100vh;
+}
+
+/*---------------------------------------------------*/
+
+.page2 {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+.legende {
+    display: flex;
+    background-color: #021740;
+
+}
+
+h2 {
+    font-family: 'BEYNO';
+    color: #F2CEF2;
+    padding: 15px 0;
+}
+
+.meme {
+    min-height: 28vh;
+    max-height: 30vh;
+    min-width: 20vh;
+    max-width: 35vh;
+    width: fit-content;
+}
+
+.legende img {
+    max-width: 35vh;
+    min-width: 20vh;
+    min-height: 25vh;
+    max-height: 38vh;
+}
+
+.meme p {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.meme p {
+
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.meme a {
+
+    font-family: 'Cantarell-Regular';
+    margin: 25px 0;
+    font-size: 14px;
+    color: white;
+
+}
+.page2 .meme {
+    padding: 30px 20px;
+}
+
+/*---------------------------------------------------------------------*/
+
+.page3{
+    margin-top: 150px;
+    display: flex;
+
+}
+
+.text{
+    width: 40%;
+/*    padding: 0 25px;*/
+    color: white;
+    margin-top: 8%;
+    border: 1px solid transparent;
+    padding: -4px;
+    margin-left: 8%;
+}
+
+.text small {
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.text ul li {
+    list-style: none;
+    margin: 4px 10px;
+}
+
+.page3 .text p {
+    margin: 25px 0;
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/*-------------------------------------------------------------------*/
+
+.portrait img {
+    min-width: 60%;
+    max-width: 90%;
+    min-height: 45vh;
+    max-height: 60vh;
+}
+
+.ronde {
+    margin-left: 18%;
+}
+
+.portrait .sido img {
+    position: relative;
+    min-width: 60%;
+    max-width: 80%;
+    min-height: 45vh;
+    max-height: 60vh;
+    top: -200px;
+    left: 12%;
+    right: 20%;
+    justify-content: center;
+}
+
+.fotsy {
+    position: relative;
+    padding-bottom: 0;
+    display: block;
+    top: -180px;
+}
+
+.fotsy h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    flex-grow: 1;
+    padding: 10px 15px;
+    background-color: #07338C;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    margin: auto 10px;
+}
+
+.sido {
+    display: block;
+    justify-content: center;
+    margin: 250px 0 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+.information {
+    margin: 15px 15px 0;
+}
+
+.description {
+    display: flex;
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+.description span {
+    justify-content: flex-start;
+    padding: 5px;
+    min-width: 70px;
+}
+
+/*--------------------------------------------------------------*/
+
+
+
+
